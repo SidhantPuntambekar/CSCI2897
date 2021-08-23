@@ -14,18 +14,18 @@ Meets online, Tu/Th 11:40-12:55, BIOT B231
 |    2 |     08/31 | Solutions to Differential Equations — Numerical vs Analytical |         | [L3]()      |             |
 |    2 |     09/02 | Exponential & Logistic Growth                                 | OD-3.2        | [L4]()      |             |
 |    3 |     09/07 | Exponential & Logistic Growth II                              |         |       |             |
-|    3 |     09/09 | Coding for Exponential & Logistic Growth                      |         | [NB2](), [solutions]()      | [hw 1]() due            |
+|    3 |     09/09 | Coding for Exponential & Logistic Growth                      |         | [NB2](),     | [hw 1]() due            |
 |    4 |     09/14 | Separation of Variables, Equilibria, and phase portraits      |         | [L5]()      |             |
 |    4 |     09/16 | Haploid models of natural selection                           | OD-3.3        | [L6]()      |             |
-|    5 |     09/21 | Equilibria, and Species Interactions: Lotka Volterra          | OD-3.4        | [L7]() [NB3]()     |             |
+|    5 |     09/21 | Equilibria, and Species Interactions: Lotka Volterra          | OD-3.4        | [L7](), [NB3]()     |             |
 |    5 |     09/23 | Consumer-Resource Models                                      |         | [L8]()      |             |
 |    6 |     09/28 | Math: Integrating Factors & Linear Equations                  |         | [L9]()      |             |
 |    6 |     09/30 | SIR models (Measles)                                          |         | [L10]()      | [hw 2]() due            |
 |    7 |     10/05 | SIR models II                                                 |         | [L11]()      |             |
-|    7 |     10/07 | Exam 1 Review                                                 |         | [Outline]() [Review Notes]()      |             |
+|    7 |     10/07 | Exam 1 Review                                                 |         | [Outline](), [Review Notes]()      |             |
 |    8 |     10/12 | Exam 1 (Open Notes, In Class)                                 |         |       |             |
 |    8 |     10/14 | SEIR models (COVID) and Linearization                         |         | [L12]()      |             |
-|    9 |     10/19 | SEIR and Vaccination I                                        |         | [L13]() [NB4]()     |             |
+|    9 |     10/19 | SEIR and Vaccination I                                        |         | [L13](), [NB4]()     |             |
 |   9 |     10/21 | Vaccination II                                                |         | [L14]()      |             |
 |   10 |     10/26 | SIRS, Malaria                                				   |         | [L14]()      |             |
 |   10 |     10/28 | Spring Wellness Day                                           |         |       |             |
