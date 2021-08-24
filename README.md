@@ -3,7 +3,7 @@
 CU Boulder's CSCU 2897 - Calculating Biological Quantities\
 Prof. [Daniel Larremore](http://larremorelab.github.io/)\
 Fall 2021\
-Meets online, Tu/Th 11:40-12:55, BIOT B231
+Tu/Th 11:40-12:55, BIOT B231
 
 ## Schedule
 
