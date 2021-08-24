@@ -45,8 +45,8 @@ Tu/Th 11:40-12:55, BIOT B231
 Course: CSCI 2897\
 Lectures: Tuesday & Thursday, 11:40am – 12:55am\
 Location: BIOT B231\
-Lecturer: Daniel Larremore.\
-Office Hours: Online via Zoom, times TBD.\
+Lecturer: Prof. Daniel Larremore\
+Office Hours: TBD\
 Email: daniel.larremore@colorado.edu\
 Webpage: https://github.com/dblarremore/CSCI2897
 
