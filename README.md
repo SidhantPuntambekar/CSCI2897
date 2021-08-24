@@ -9,7 +9,7 @@ Tu/Th 11:40-12:55, BIOT B231
 
 | Week | Date      | Topic                                                         | Reading | Links | Assignments |
 |------|-----------|---------------------------------------------------------------|---------|-------|-------------|
-|    1 |     08/24 | Syllabus & a tour of math. models & linear algebra            | OD-1, [twitter](https://twitter.com/seanjtaylor/status/1349583017719709699)    | [L1]()      |             |
+|    1 |     08/24 | Syllabus & a tour of math. models & linear algebra            | OD-1, [twitter](https://twitter.com/seanjtaylor/status/1349583017719709699)    | [L1](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_1.pdf)      |             |
 |    1 |     08/26 | How to Construct a Model                                      | OD-2    | L2      |             |
 |    2 |     08/31 | Solutions to Differential Equations — Numerical vs Analytical |         | L3      |             |
 |    2 |     09/02 | Exponential & Logistic Growth                                 | OD-3.2        | L4      |             |
