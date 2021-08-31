@@ -10,36 +10,36 @@ Tu/Th 11:40-12:55, BIOT B231
 | Week | Date      | Topic                                                         | Reading | Links | Assignments |
 |------|-----------|---------------------------------------------------------------|---------|-------|-------------|
 |    1 |     08/24 | Syllabus & a tour of math. models & linear algebra            | OD-1, [twitter](https://twitter.com/seanjtaylor/status/1349583017719709699)    | [L1](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_1.pdf)      |             |
-|    1 |     08/26 | How to Construct a Model                                      | OD-2    | L2      |             |
+|    1 |     08/26 | How to Construct a Model                                      | OD-2    | [L2](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_2.pdf)      |             |
 |    2 |     08/31 | Solutions to Differential Equations — Numerical vs Analytical |         | L3      |             |
-|    2 |     09/02 | Exponential & Logistic Growth                                 | OD-3.2        | L4      |             |
-|    3 |     09/07 | Exponential & Logistic Growth II                              |         |       |             |
-|    3 |     09/09 | Coding for Exponential & Logistic Growth                      |         | NB2,     |             |
+|    2 |     09/02 | Exponential & Logistic Growth                                 | OD-3.2  | L4      |             |
+|    3 |     09/07 | Exponential & Logistic Growth II                              |         |         |             |
+|    3 |     09/09 | Coding for Exponential & Logistic Growth                      |         | NB2     | [HW1](https://github.com/dblarremore/CSCI2897/blob/master/Notes/homework_1.pdf) Due            |
 |    4 |     09/14 | Separation of Variables, Equilibria, and phase portraits      |         | L5      |             |
-|    4 |     09/16 | Haploid models of natural selection                           | OD-3.3        | L6      |             |
-|    5 |     09/21 | Equilibria, and Species Interactions: Lotka Volterra          | OD-3.4        | L7, NB3     |             |
-|    5 |     09/23 | Consumer-Resource Models                                      |         | L8      |             |
+|    4 |     09/16 | PRERECORDED - Haploid models of natural selection                       | OD-3.3  | L6      |             |
+|    5 |     09/21 | PRERECORDED - Equilibria, Species Interactions: Lotka Volterra          | OD-3.4  | L7, NB3 |             |
+|    5 |     09/23 | Consumer-Resource Models                                      |         | L8      | HW2 Due     |
 |    6 |     09/28 | Math: Integrating Factors & Linear Equations                  |         | L9      |             |
-|    6 |     09/30 | SIR models (Measles)                                          |         | L10      |             |
-|    7 |     10/05 | SIR models II                                                 |         | L11      |             |
-|    7 |     10/07 | Exam 1 Review                                                 |         | Outline, Review Notes      |             |
-|    8 |     10/12 | Exam 1 (Open Notes, In Class)                                 |         |       |             |
-|    8 |     10/14 | SEIR models (COVID) and Linearization                         |         | L12      |             |
-|    9 |     10/19 | SEIR and Vaccination I                                        |         | L13, NB4     |             |
-|   9  |     10/21 | Vaccination II                                                |         | L14      |             |
-|   10 |     10/26 | SIRS, Malaria                                				   |         | L14      |             |
-|   10 |     10/28 | Spring Wellness Day                                           |         |       |             |
-|   11 |     11/02 | Multiple variables, and systems of equations                  |         | L15      |             |
-|   11 |     11/04 | Vectors, matrices                                             | OD-Primer2        |  L16     |             |
-|   12 |     11/09 | Matrices and inverse matrices                                 | OD-Primer2        |  L17 NB5      |             |
-|   12 |     11/11 | Eigenvalues & Eigenvectors                                    | OD-Primer2       | L18      |             |
-|   13 |     11/16 | Multivariable Linear Systems                                  | OD-7        | L19      |             |
-|   13 |     11/18 | Complex Eigenvalues                                           |         | L20      |            |
-|   14 |     11/30 | Demography and age-structure transition matrices              |         | L21      |             |
-|   14 |     12/02 | Models w/ 2 ICs: Newton's law, Carbon Dating, Mortgage Pymts|         | L22      |             |
-|   15 |     12/07 | Least Squares and Linear Algebra                              | Final Outline        | L23      |             |
-|   15 |     12/09 | Final Exam Review                                             |        |       |             |
-|      | Final Day | Final Exam (Open Notes)                                       |         | Final     |             |
+|    6 |     09/30 | SIR models (Measles)                                          |         | L10     |             |
+|    7 |     10/05 | SIR models II                                                 |         | L11     |             |
+|    7 |     10/07 | Exam 1 Review                                                 |         | Outline, Review Notes |             |
+|    8 |     10/12 | Exam 1 (Open Notes, In Class)                                 |         |         |             |
+|    8 |     10/14 | SEIR models (COVID) and Linearization                         |         | L12     |             |
+|    9 |     10/19 | SEIR and Vaccination I                                        |         | L13, NB4|             |
+|   9  |     10/21 | Vaccination II                                                |         | L14     |             |
+|   10 |     10/26 | SIRS, Malaria                                				   |         | L14     | HW3 Due     |
+|   10 |     10/28 | TBD                                                           |         |         |             |
+|   11 |     11/02 | Multiple variables, and systems of equations                  |         | L15     |             |
+|   11 |     11/04 | Vectors, matrices                                             | OD-Primer2        | L16         |             |
+|   12 |     11/09 | Matrices and inverse matrices                                 | OD-Primer2        | L17 NB5     | HW4 Due     |
+|   12 |     11/11 | Eigenvalues & Eigenvectors                                    | OD-Primer2        | L18         |             |
+|   13 |     11/16 | Multivariable Linear Systems                                  | OD-7    | L19     |             |
+|   13 |     11/18 | Complex Eigenvalues                                           |         | L20     |             |
+|   14 |     11/30 | Demography and age-structure transition matrices              |         | L21     | HW 5 Due    |
+|   14 |     12/02 | Models w/ 2 ICs: Newton's law, Carbon Dating, Mortgage Pymts  |         | L22     |             |
+|   15 |     12/07 | Least Squares and Linear Algebra                              | Final Outline     | L23         |             |
+|   15 |     12/09 | Final Exam Review                                             |         |         |             |
+|      | Final Day | Final Exam (Open Notes)                                       |         | Final   |             |
 
 ## Syllabus
 Course: CSCI 2897\
