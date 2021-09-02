@@ -12,9 +12,9 @@ Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for l
 |------|-----------|---------------------------------------------------------------|---------|-------|-------------|
 |    1 |     08/24 | Syllabus & a tour of math. models & linear algebra            | OD-1, [twitter](https://twitter.com/seanjtaylor/status/1349583017719709699)    | [L1](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_1.pdf)      |             |
 |    1 |     08/26 | How to Construct a Model                                      | OD-2    | [L2](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_2.pdf)      |             |
-|    2 |     08/31 | Solutions to Differential Equations — Numerical vs Analytical |         | L3      |             |
-|    2 |     09/02 | Exponential & Logistic Growth                                 | OD-3.2  | L4      |             |
-|    3 |     09/07 | Exponential & Logistic Growth II                              |         |         |             |
+|    2 |     08/31 | Solutions to Differential Equations — Numerical vs Analytical |         | [L3](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_3.pdf)      |             |
+|    2 |     09/02 | Exponential & Logistic Growth                                 | OD-3.2  | [NB1](https://github.com/dblarremore/CSCI2897/blob/master/Notebooks/Notebook_1%20-%20Euler's%20Method%20-%20Solutions.ipynb)     |             |
+|    3 |     09/07 | Exponential & Logistic Growth II                              |         | [L4](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_4.pdf)        |             |
 |    3 |     09/09 | Coding for Exponential & Logistic Growth                      |         | NB2     | [HW1](https://github.com/dblarremore/CSCI2897/blob/master/Notes/homework_1.pdf) Due            |
 |    4 |     09/14 | Separation of Variables, Equilibria, and phase portraits      |         | L5      |             |
 |    4 |     09/16 | PRERECORDED - Haploid models of natural selection                       | OD-3.3  | L6      |             |
