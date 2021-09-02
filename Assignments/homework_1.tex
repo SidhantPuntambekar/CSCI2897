@@ -1,0 +1,131 @@
+\documentclass[11pt,onecolumn,superscriptaddress,notitlepage]{article}
+
+\usepackage[total={6.5in,9in}, top=1.0in, includefoot]{geometry}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx} % Include figure files
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[affil-it]{authblk} 
+\hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
+
+\usepackage{enumitem}
+
+\newcommand{\dx}[0]{\displaystyle\frac{d}{dx}}
+
+\usepackage{parskip}
+
+\date{}
+\begin{document}
+
+%%%%%%%%%% Authors
+\author{CSCI 2897 - Calculating Biological Quantities - Larremore - Fall 2021}
+%%%%%%%%%% Title
+\title{Homework 1}
+\maketitle
+%%%%%%%%%% Content
+
+    %%%    
+    %%%   
+  %%%%%%%
+   %%%%%
+    %%%
+     %
+{\bf Notes:} Remember to (1) familiarize yourself with the collaboration policies posted on the Syllabus, and (2) turn in your homework to Canvas as a {\bf single PDF}. Hand-writing some or most of your solutions is fine, but be sure to scan and PDF everything into a single document. Unsure how? Ask on Slack! 
+
+\section*{Pushups}
+
+{\bf Calculate these derivatives.}
+
+\begin{enumerate}
+	\item $\dx x^3 = $
+	\item $\dx x^{-3} = $
+	\item $\dx e^{\alpha x} = $
+	\item $\dx e^{\pi x^{-2}} = $
+	\item $\dx \ln{2x} = $
+\end{enumerate}
+
+\section*{Squats}
+
+{\bf Find solutions to each of these differential equations.}\footnote{Hint: ask yourself, ``What function, if I were to take its derivative, would satisfy this equation?''}
+
+\begin{enumerate}[resume]
+	\item $\displaystyle\frac{dy(t)}{dt} = 0$
+	\item $\displaystyle\frac{dy(t)}{dt} = t$
+	\item $\displaystyle\frac{dy(t)}{dt} = y(t)$
+\end{enumerate}
+
+\section*{Cooldown}
+You may remember that there are infinitely many solutions to so-called {\it indefinite integrals} (integrals without limits of integration). For example, $$\int x \ dx = x^{2}/2 + c,$$ where $c$ is an arbitrary constant. If we take a derivative of both sides of that equation, we see that indeed, $x = \frac{d}{dx} \left(x^2/2+c\right)$, no matter what $c$ is.
+\begin{enumerate}[resume]
+	\item When solving the equations in the Squats section above, did arbitrary constants factor into your solutions? If not, why not? If so, how?
+	\item In a couple sentences, in your own words, can you explain what it means for a differential equation to have a {\it family of solutions}?  
+\end{enumerate}
+
+%%%%%%%%%%
+\clearpage
+\section*{Going viral}
+
+A new semester is starting, and, feeling a sense of renewal, you turn on your smartphone, and log into your TikTok app to create some Day 1 content for your followers. Whatever you do, it works, and your content gets viewed a great many times. It hits you: you are going viral.
+
+Naturally, you are the CEO of {\it Calculating Biological Quantities}, so you being to wonder: {\it could I write down a {\bf dynamical model} to predict and understand my {\bf unread notifications}}? You make the following observations in your Influencer Lab Notebook:
+\begin{itemize}
+	\item	You only check your phone every 60 minutes.
+	\item Each time you check your phone, you see that there are new unread notifications. You notice that these new unread notifications are following a {\it growing} pattern: 0 when you first post, 20 in the first hour, 40 in the second hour, 60 in the third hour, 80 in the fourth $\dots$, at which point you decide it's time to write down a model. 
+	\item Before putting your phone away, you address 50\% of the total unread notifications.
+\end{itemize} 
+Due to the fact that mathematical modeling lives in your head rent free, you decide to write down a model to track the number of total unread notifications that you'll see each time you check your phone. 
+
+\begin{enumerate}[resume]
+	\item For this model, would you consider continuous or discrete time? Explain. 
+	\item What is the variable of this model? Jot down two questions about the variable that you could use your model to answer. 
+	\item What would be an appropriate timescale? 
+	\item Draw a Life Cycle Diagram for this model. 
+	\item Use the Life Cycle Diagram to write down (a) a recursion equation and (b) a difference equation.
+	\item Using Python, {\it code up your model}. How many unread notifications will there be after a week, assuming that you start with zero unread notifications? (Assume that you have hired a social media manager who deals with your inbox, exactly like you would, while you sleep. Or assume that you don't sleep.)
+	\item Make a plot of unread notifications vs time during that week. Be sure to label your axes and include a legend. 
+\end{enumerate}
+
+{\it Extra Credit:} To consider more generic scenarios of going viral, identify constants in the model above and replace them with generic parameters (i.e., letters). What are the units of those parameters? Produce a plot of the first week of unread notifications using different parameters, and write 2-3 sentences describing how the parameters affected the plot, as compared with the baseline scenario. 
+
+%%%%%%%%%%
+\clearpage
+\section*{Trust but verify}
+
+\begin{enumerate}[resume]
+	\item What is the order of this equation? Is it linear or nonlinear? 
+	$$(1-x)y'' - 4xy' + 5y = cos(x)$$
+	\item What is the order of this equation? Is it linear or nonlinear? 
+	$$(\sin \theta) y''' - (\cos \theta) y' = 2$$
+	\item Verify that the function solves the ODE or show that it does not. 
+	$$2y' + y = 0; \qquad y=e^{-x/2}$$
+	\item Verify that the function solves the ODE or show that it does not.
+	$$y'' - y = \cos{2x}; \qquad y=-\tfrac{1}{5}\cos{2x}$$
+	\item Verify that the function solves the ODE or show that it does not.
+	$$y'' + y = \sin{2x}; \qquad y=\tfrac{1}{5}\sin{2x}$$
+	\item Find a value of the parameter $a$ so that the function $y(t)=e^{at}$ is a solution to the given differential equation.
+	$$ 5y' = 4y$$
+	\item Find a value of the parameter $r$ so that the function $n(t) = a r^t$ is a solution to the given recursion, assuming that $a\neq 0$.
+	$$ n(t+1) = n(t) + n(t-1)$$
+\end{enumerate}
+
+\section*{Last but not least}
+\begin{enumerate}[resume]
+	\item Describe a time-varying phenomenon in the biological or physical world around you that makes you curious. Tell me a bit about it, pose a quantitative question about it, and write down the processes or steps in a model with a corresponding diagram (of any of the types we have discussed in class). Identify parameters and their units, choose a timescale, and if possible, write some equations for your model. This is a {\it creative} exercise so you will not be evaluated on whether the model is correct or plausible. No need to solve or analyze the equations. 
+\end{enumerate}
+
+
+     %
+    %%%
+   %%%%%
+  %%%%%%%
+    %%%
+    %%%
+
+\end{document}
