@@ -3,7 +3,8 @@
 CU Boulder's CSCU 2897 - Calculating Biological Quantities\
 Prof. [Daniel Larremore](http://larremorelab.github.io/)\
 Fall 2021\
-Tu/Th 11:40-12:55, BIOT B231
+Tu/Th 11:40-12:55, BIOT B231\
+Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for link)
 
 ## Schedule
 
@@ -46,7 +47,7 @@ Course: CSCI 2897\
 Lectures: Tuesday & Thursday, 11:40am – 12:55am\
 Location: BIOT B231\
 Lecturer: Prof. Daniel Larremore\
-Office Hours: TBD\
+Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for link)\
 Email: daniel.larremore@colorado.edu\
 Webpage: https://github.com/dblarremore/CSCI2897
 
