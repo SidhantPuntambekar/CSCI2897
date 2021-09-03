@@ -1,5 +1,5 @@
 # CSCI - 2897
-
+ 
 CU Boulder's CSCU 2897 - Calculating Biological Quantities\
 Prof. [Daniel Larremore](http://larremorelab.github.io/)\
 Fall 2021\
