@@ -19,7 +19,7 @@ Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for l
 |    4 |     09/14 | Separation of Variables, Equilibria, and phase portraits      |         | NB2      |             |
 |    4 |     09/16 | PRERECORDED - Haploid models of natural selection                       | OD-3.3  | L6      |             |
 |    5 |     09/21 | PRERECORDED - Equilibria, Species Interactions: Lotka Volterra          | OD-3.4  | L7, NB3 |             |
-|    5 |     09/23 | Consumer-Resource Models                                      |         | L8      | HW2 Due     |
+|    5 |     09/23 | Consumer-Resource Models                                      |         | L8      | [HW2](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_2.pdf) Due     |
 |    6 |     09/28 | Math: Integrating Factors & Linear Equations                  |         | L9      |             |
 |    6 |     09/30 | SIR models (Measles)                                          |         | L10     |             |
 |    7 |     10/05 | SIR models II                                                 |         | L11     |             |
