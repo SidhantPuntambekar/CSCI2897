@@ -16,8 +16,8 @@ Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for l
 |    2 |     09/02 | Exponential & Logistic Growth                                 | OD-3.2  | [NB1](https://github.com/dblarremore/CSCI2897/blob/master/Notebooks/Notebook_1%20-%20Euler's%20Method%20-%20Solutions.ipynb)     |             |
 |    3 |     09/07 | Exponential & Logistic Growth II                              |         | [L4](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_4.pdf)        |             |
 |    3 |     09/09 | Separation of Variables and Logistic Solution                 |         | [L5](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_5.pdf)     | [HW1](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_1.pdf) Due            |
-|    4 |     09/14 | Separation of Variables, Equilibria, and phase portraits      |         | NB2      |             |
-|    4 |     09/16 | PRERECORDED - Haploid models of natural selection                       | OD-3.3  | L6      |             |
+|    4 |     09/14 | Separation of Variables, Equilibria, and phase portraits      |         | [NB2](https://github.com/dblarremore/CSCI2897/blob/master/Notebooks/Notebook_2%20-%20Logistic%20Growth.ipynb)      |             |
+|    4 |     09/16 | PRERECORDED - Haploid models of natural selection                       | OD-3.3  | [L6](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_6.pdf)      |             |
 |    5 |     09/21 | PRERECORDED - Equilibria, Species Interactions: Lotka Volterra          | OD-3.4  | L7, NB3 |             |
 |    5 |     09/23 | Consumer-Resource Models                                      |         | L8      | [HW2](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_2.pdf) Due     |
 |    6 |     09/28 | Math: Integrating Factors & Linear Equations                  |         | L9      |             |
