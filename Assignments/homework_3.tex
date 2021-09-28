@@ -1,0 +1,105 @@
+\documentclass[11pt,onecolumn,superscriptaddress,notitlepage]{article}
+
+\usepackage[total={6.5in,9in}, top=1.0in, includefoot]{geometry}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx} % Include figure files
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[affil-it]{authblk} 
+\hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
+
+\usepackage{enumitem}
+
+\newcommand{\dx}[0]{\displaystyle\frac{d}{dx}}
+\newcommand{\dy}[0]{\displaystyle\frac{dy}{dt}}
+\newcommand{\so}[1]{\textcolor{red}{#1}}
+
+\usepackage{parskip}
+
+\date{}
+\begin{document}
+
+%%%%%%%%%% Authors
+\author{CSCI 2897 - Calculating Biological Quantities - Larremore - Fall 2021}
+%%%%%%%%%% Title
+\title{Homework 3}
+%%%%%%%%%% Abstract
+\maketitle
+%%%%%%%%%% Content
+
+    %%%    
+    %%%   
+  %%%%%%%
+   %%%%%
+    %%%
+     %
+{\bf Notes:} Remember to (1) familiarize yourself with the collaboration policies posted on the Syllabus, and (2) turn in your homework to Canvas as a {\bf single PDF}. Hand-writing some or most of your solutions is fine, but be sure to scan and PDF everything into a single document. Unsure how? Ask on Slack! 
+
+\section*{Lat pulldowns}
+
+\begin{enumerate}
+	\item Find the general solution\footnote{Recall that the general solution will contain a constant of integration.} of $$\frac{dy}{dx} = 3x^2e^{-y}$$
+	\item Find a particular solution for problem 1 that satisfies $y(0)=1$.
+	\item Find the general solution of $$\frac{tz}{t+1} = \frac{dz}{dt}$$
+	\item Find the particular solution of $$\frac{dn}{dt} = e^{2t+n}$$ that has $n=0$ when $t=0$. 
+\end{enumerate}
+
+\section*{Tricep extensions} 
+
+{\bf For each 1st order ODE below, find the equilibrium solution or solutions!} You can assume that any Greek letters, like $\alpha$, $\beta$, $\gamma$ are constants.
+
+\begin{enumerate}[resume]
+	\item $\dot{p} = \alpha(1-\frac{p}{\beta})p$
+	\item $\dot{q} = q^2 - q - \gamma$
+	\item $\dot{r_1} = \alpha\ r_1 r_2 + \beta\ r_1\\ \dot{r_2} = \gamma(1-r_2)r_2$
+\end{enumerate}
+
+\clearpage
+\section*{SARS-CoV-2 Delta Variant and Selection} 
+
+In these problems, our goal will be to learn more about our haploid model of natural selection. You may want to revisit Lecture 6. However, here, instead of talking about {\it two alleles} of a gene, we will instead be talking about {\it two groups of variants} of SARS-CoV-2: the delta variant and the non-delta variants.
+
+Recall that the equation governing the {\it proportion} of the population of the variant is predicted by the model $$\dot{p} = s_c p(t)\left(1-p(t) \right) \ .$$
+
+\begin{enumerate}[resume]
+	\item Solve the differential equation above to find a particular solution with the ``generic'' initial condition $p(0) = p_0$. (We often use a subscript $0$ in this way, so that later, when we have an actual initial condition, we can just pop it right in! We pronounce the $0$ subscript as ``naught''.)
+	\item Create a Jupyter notebook. Create a new function for your {\bf solution} from the previous problem. Use this function to create two plots:
+	\begin{enumerate}
+		\item Plot these four curves for $p$ (y-axis) vs $t$ (x-axis). Let $t$ range from $0$ weeks to $32$ weeks. 
+		\begin{itemize}
+			\item In black: $s_c = 1$, $p_0 = 0.01$
+			\item In purple: $s_c = 1$, $p_0 = 0.02$
+			\item In red: $s_c = 1$, $p_0 = 0.04$
+			\item In orange: $s_c = 1$, $p_0 = 0.08$
+		\end{itemize}
+				\item Plot these four curves for $p$ (y-axis) vs $t$ (x-axis). Let $t$ range from $0$ weeks to $32$ weeks. 
+		\begin{itemize}
+			\item	In grey: $s_c = 0.5$, $p_0 = 0.02$
+			\item In purple: $s_c = 1$, $p_0 = 0.02$
+			\item In blue: $s_c = 2$, $p_0 = 0.02$
+			\item In green: $s_c = 4$, $p_0 = 0.02$
+		\end{itemize}
+	\end{enumerate}
+	\item Comment on how values of $s_c$ and values of $p_0$ affect the shape of these curves. 
+	\item Navigate to \href{https://ourworldindata.org/grapher/covid-cases-delta?country=AUS~BRA~GBR~USA~ITA~ESP~DEU~IND}{https://ourworldindata.org/grapher/covid-cases-delta}. Look familiar? These are the shares of SARS-CoV-2 sequences that are the delta variant from various countries. If you want you may click the DOWNLOAD tab and then the blue button to get the full covid-cases-delta.csv datafile. However, I have already extracted the data from the USA for you into a separate CSV file, which you can find on the course GitHub. [This step is important, but there's nothing to grade here.]
+	\item Load the data from the CSV file into your Jupyter notebook.\footnote{There are many ways to do this, but a common way that data scientists use is through a package called pandas. Here is a tutorial: \href{https://datatofish.com/import-csv-file-python-using-pandas/}{https://datatofish.com/import-csv-file-python-using-pandas/}.} Now create a {\bf scatter plot}\footnote{You can find some examples at \href{https://pythonspot.com/matplotlib-scatterplot/}{https://pythonspot.com/matplotlib-scatterplot/}.} of column Delta ($p$) vs column Week ($t$). Again, let $p$ be on the $y-axis$ and $t$ on the x-axis, with $t$ ranging from $0$ to $32$ weeks. Be sure to label your axes. 
+	\item Using your knowledge from problem 9, experiment with different values of $p_0$ and $s_c$ to find values that fit your scattered data well. What are those values of $p_0$ and $s_c$ that you found to fit the data best?
+	\item Produce a plot of (1) your scattered data in black, as in problem 12, with your best-fitting curve from problem 13 in red. Be sure to include a legend and axis labels.
+	\item {\bf Extra credit.} Using the raw data file provided in Our World In Data's download link (problem 11), redo the process above for another country of your choice. The data file will have more than $32$ weeks of data, so you may find it useful to cut and paste a 32-week selection into a separate CSV file, for convenience. Comment on similarities or differences between the USA's values of $p_0$ and $s_c$ and this second country's values. 
+\end{enumerate}
+
+     %
+    %%%
+   %%%%%
+  %%%%%%%
+    %%%
+    %%%
+
+\end{document}
