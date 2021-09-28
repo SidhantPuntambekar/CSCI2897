@@ -23,20 +23,20 @@ Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for l
 |    6 |     09/28 | Math: Integrating Factors & Linear Equations                  |         | [L9](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_9.pdf)      |             |
 |    6 |     09/30 | SIR models (Measles)                                          |         | L10     |             |
 |    7 |     10/05 | SIR models II                                                 |         | L11     |             |
-|    7 |     10/07 | Exam 1 Review                                                 |         | Outline, Review Notes |             |
+|    7 |     10/07 | Exam 1 Review                                                 |         | Outline, Review Notes | [HW3](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_2.pdf) Due            |
 |    8 |     10/12 | Exam 1 (Open Notes, In Class)                                 |         |         |             |
 |    8 |     10/14 | SEIR models (COVID) and Linearization                         |         | L12     |             |
 |    9 |     10/19 | SEIR and Vaccination I                                        |         | L13, NB4|             |
 |   9  |     10/21 | Vaccination II                                                |         | L14     |             |
-|   10 |     10/26 | SIRS, Malaria                                				   |         | L14     | HW3 Due     |
+|   10 |     10/26 | SIRS, Malaria                                				   |         | L14     |             |
 |   10 |     10/28 | TBD                                                           |         |         |             |
 |   11 |     11/02 | Multiple variables, and systems of equations                  |         | L15     |             |
 |   11 |     11/04 | Vectors, matrices                                             | OD-Primer2        | L16         |             |
-|   12 |     11/09 | Matrices and inverse matrices                                 | OD-Primer2        | L17 NB5     | HW4 Due     |
+|   12 |     11/09 | Matrices and inverse matrices                                 | OD-Primer2        | L17 NB5     |             |
 |   12 |     11/11 | Eigenvalues & Eigenvectors                                    | OD-Primer2        | L18         |             |
 |   13 |     11/16 | Multivariable Linear Systems                                  | OD-7    | L19     |             |
 |   13 |     11/18 | Complex Eigenvalues                                           |         | L20     |             |
-|   14 |     11/30 | Demography and age-structure transition matrices              |         | L21     | HW 5 Due    |
+|   14 |     11/30 | Demography and age-structure transition matrices              |         | L21     |             |
 |   14 |     12/02 | Models w/ 2 ICs: Newton's law, Carbon Dating, Mortgage Pymts  |         | L22     |             |
 |   15 |     12/07 | Least Squares and Linear Algebra                              | Final Outline     | L23         |             |
 |   15 |     12/09 | Final Exam Review                                             |         |         |             |
