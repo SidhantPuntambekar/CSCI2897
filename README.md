@@ -22,8 +22,8 @@ Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for l
 |    5 |     09/23 | Consumer-Resource Models                                      |         | [L8](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_8.pdf)      | [HW2](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_2.pdf) Due     |
 |    6 |     09/28 | Math: Integrating Factors & Linear Equations                  |         | [L9](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_9.pdf)      |             |
 |    6 |     09/30 | SIR models (Measles)                                          |         | [L10](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_10.pdf)     |             |
-|    7 |     10/05 | SIR models II                                                 |         | L11     |             |
-|    7 |     10/07 | Exam 1 Review                                                 |         | Outline, Review Notes | [HW3](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_3.pdf) Due            |
+|    7 |     10/05 | SIR models II                                                 |         | [L11](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_11.pdf)     |             |
+|    7 |     10/07 | Exam 1 Review                                                 |         | [Outline](https://github.com/dblarremore/CSCI2897/blob/master/Exams/Exam_1_outline.md), Review Notes | [HW3](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_3.pdf) Due            |
 |    8 |     10/12 | Exam 1 (Open Notes, In Class)                                 |         |         |             |
 |    8 |     10/14 | SEIR models (COVID) and Linearization                         |         | L12     |             |
 |    9 |     10/19 | SEIR and Vaccination I                                        |         | L13, NB4|             |
