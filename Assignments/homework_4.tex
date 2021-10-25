@@ -1,0 +1,119 @@
+\documentclass[11pt,onecolumn,superscriptaddress,notitlepage]{article}
+
+\usepackage[total={6.5in,9in}, top=1.0in, includefoot]{geometry}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx} % Include figure files
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[affil-it]{authblk} 
+\hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
+
+\usepackage{enumitem}
+
+\newcommand{\dx}[0]{\displaystyle\frac{d}{dx}}
+\newcommand{\dy}[0]{\displaystyle\frac{dy}{dt}}
+\newcommand{\so}[1]{\textcolor{red}{#1}}
+
+\usepackage{parskip}
+
+\date{}
+\begin{document}
+
+%%%%%%%%%% Authors
+\author{CSCI 2897 - Calculating Biological Quantities - Larremore - Fall 2021}
+%%%%%%%%%% Title
+\title{Homework 4}
+%%%%%%%%%% Abstract
+\maketitle
+%%%%%%%%%% Content
+
+    %%%    
+    %%%   
+  %%%%%%%
+   %%%%%
+    %%%
+     %
+{\bf Notes:} Remember to (1) familiarize yourself with the collaboration policies posted on the Syllabus, and (2) turn in your homework to Canvas as a {\bf single PDF}. Hand-writing some or most of your solutions is fine, but be sure to scan and PDF everything into a single document. Unsure how? Ask on Slack! 
+
+\section*{Burpees}
+
+{\bf Write the integrating factor $\mu(t)$ for each of these 1st order linear ODEs. Recall that the first pages of Zill feature a nice table of integrals if you see something you're unsure how to integrate!} 
+
+\begin{enumerate}
+	\item $\dy + y = t+3$
+	\item $\dy + 2y = t+3$
+	\item $\dy + 2ty = t+3$
+	\item $\dy + 2ty = (t+3)^2$
+	\item $\dy = q(t) + \ln(t)y$
+\end{enumerate}
+
+\section*{Side planks} 
+
+{\bf For each 1st order linear ODE below, use the integrating factor method to arrive at a solution for $y(t)$.}
+
+\begin{enumerate}[resume]
+	\item $\dy = t + \frac{y}{t}, \quad y(2) = 5$
+	\item $\dy - e^{-2t} = 5y, \quad y(0) = \pi$
+\end{enumerate}
+
+\clearpage
+\section*{Vaccination, Birth, and Death} 
+
+This problem will focus a variation on the classic SIR model. We'll learn about {\bf the impact of birth and death} on vaccine-induced herd immunity by thinking about population turnover. 
+
+Consider our typical $SIR+V$ model with a {\bf perfectly protective vaccine}, with the inclusion of birth and death. Specifically, suppose that a fraction $\omega$ of the total population dies per day. Suppose also that an equal number of people are born each day, so that the total population size is a constant. Assume that all people are {\it born susceptible $S$,} but that people in the $S$, $I$, $R$, and $V$ groups die at equal per-capita rates.
+
+Finally, assume that at a constant rate $\alpha$, susceptibles are vaccinated. Note carefully that $\alpha$ is {\it not} a per-capita rate. 
+
+\begin{enumerate}[resume]
+	\item Using the typical parameters $\beta$ and $\gamma$ as introduced in class, draw a {\bf flow diagram} for this system. Use one color to draw the typical $SIR+V$ model part of the flow diagram, and use a {\bf second color} to show, in the same diagram, the birth and death modifications that we have introduced.
+	\item Use your flow diagram to write the set of differential equations for this system.
+\end{enumerate}	
+
+The next few problems focus on understanding the equilibria in this system.
+\begin{enumerate}[resume]	
+	\item Begin your quest to find equilibria with your equation for $\dot{V}$. What is the steady-state value of $V$?
+	\item Under what mathematical conditions does your equilibrium make sense? After stating this requirement in math, explain what it means in words in a single sentence. 
+	\item Now turn to your equation for $\dot{R}$. What is the steady state equation you get from setting $\dot{R}=0$?
+	\item Now focus on your equation for $\dot{I}$. Use this equation to find a disease-free equilibrium for the system, and specify the values of $S$, $I$, $R$, and $V$ at that equilibrium. 
+	\item Explain the values of the disease-free equilibrium in words. 
+	\item Using your remaining equations, what is the other possible equilibrium? In other words, what are the other possible steady-state values of $S$, $I$, $R$, and $V$ that are not ``disease free'' ?
+	\item Under what mathematical conditions does this equilibrium make sense? What would happen if you tried to simulate from a model in which the parameters violated your mathematical conditions? 
+\end{enumerate}
+
+We'll now turn to exploring this model via simulation. 
+\begin{enumerate}[resume]
+	\item Modify the SIR code from the in-class notebook to include the effects of vaccination, birth, and death. Make a figure using the following constraints:
+	\begin{itemize}
+		\item Initially, let $1/1000$ of the population be infected, with everyone else susceptible. 
+		\item Let $\beta=0.5$, $\alpha=0.001$, $\omega=0.002$, and $\gamma = 0.25$.
+		\item Plot five years of simulation with $S$ in blue, $I$ in red, $R$ in black, and $V$ in green. 
+	\end{itemize}
+	\item Describe the epidemic in this plot in words, and discuss which of the two equilibria (which you found in previous questions) you think this system is heading toward.
+	\item Now simulate anew and make a figure using the following constraints:
+	\begin{itemize}
+		\item Initially, let $1/1000$ of the population be infected, with everyone else susceptible. 
+		\item Let $\beta=1$, $\alpha=0.001$, $\omega=0.002$, and $\gamma = 0.25$.
+		\item Plot five years of simulation with $S$ in blue, $I$ in red, $R$ in black, and $V$ in green. 
+	\end{itemize}
+	\item Describe the epidemic in this plot in words. What is going on here? Again, discuss which of the two equilibria you think this system is heading toward. 
+	\vspace{1in}
+	\item [Extra Credit A] Using math or your code, explore the conditions under which the system goes to the disease-free equilibrium or the alternative. Try to write down general rules that could help someone understand what happens when a disease is spreading in a population with birth, death, and vaccination. 
+	\item [Extra Credit B] Critique this model by commenting on its assumptions. How might you address some of those critiques with a modified model? 
+\end{enumerate}
+
+     %
+    %%%
+   %%%%%
+  %%%%%%%
+    %%%
+    %%%
+
+\end{document}
