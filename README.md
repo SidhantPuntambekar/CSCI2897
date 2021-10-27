@@ -25,11 +25,11 @@ Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for l
 |    7 |     10/05 | SIR models II                                                 |         | [L11](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_11.pdf)     |             |
 |    7 |     10/07 | Exam 1 Review                                                 |         | [Outline](https://github.com/dblarremore/CSCI2897/blob/master/Exams/Exam_1_outline.md), [Review](https://github.com/dblarremore/CSCI2897/blob/master/Exams/Exam_Review.pdf) [Spring21 Midterm](https://github.com/dblarremore/CSCI2897/blob/master/Exams/Spring2021_Midterm.pdf) | [HW3](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_3.pdf) Due            |
 |    8 |     10/12 | Exam 1 (Open Notes, In Class)                                 |         |         |             |
-|    8 |     10/14 | SEIR and Vaccination I                                        |         | L12(https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_12.pdf)     |             |
-|    9 |     10/19 | Vaccination II                                                |         | L13(https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_13.pdf)     |             |
-|   9  |     10/21 | Vaccination III and Exam Discussion                           |         |         |             |
-|   10 |     10/26 | SIRS, Malaria                                				   |         | L14     |             |
-|   10 |     10/28 | TBD                                                           |         |         |             |
+|    8 |     10/14 | SEIR and Vaccination I                                        |         | [L12](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_12.pdf)     |             |
+|    9 |     10/19 | Vaccination II                                                |         | [L13](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_13.pdf)     |             |
+|   9  |     10/21 | Vaccination III and Exam Discussion                           |         | see L13       |             |
+|   10 |     10/26 | SIRS, Malaria                                				   |         | see L13     |             |
+|   10 |     10/28 | Multiple variables, and systems of equations                  |         | [L14](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_14.pdf)        |             |
 |   11 |     11/02 | Multiple variables, and systems of equations                  |         | L15     |             |
 |   11 |     11/04 | Vectors, matrices                                             | OD-Primer2        | L16         | [HW4](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_4.pdf) Due            |
 |   12 |     11/09 | Matrices and inverse matrices                                 | OD-Primer2        | L17 NB5     |             |
