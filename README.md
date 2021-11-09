@@ -30,9 +30,9 @@ Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for l
 |   9  |     10/21 | Vaccination III and Exam Discussion                           |         | see L13       |             |
 |   10 |     10/26 | SIRS, Malaria                                				   |         | see L13     |             |
 |   10 |     10/28 | Multiple variables, and systems of equations                  |         | [L14](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_14.pdf)        |             |
-|   11 |     11/02 | Multiple variables, and systems of equations                  |         | L15     |             |
-|   11 |     11/04 | Vectors, matrices                                             | OD-Primer2        | L16         | [HW4](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_4.pdf) Due            |
-|   12 |     11/09 | Matrices and inverse matrices                                 | OD-Primer2        | L17 NB5     |             |
+|   11 |     11/02 | Multiple variables, and systems of equations                  |         |         |             |
+|   11 |     11/04 | Vectors, matrices                                             | OD-Primer2        | [L16](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_16.pdf) [NB5](https://github.com/dblarremore/CSCI2897/blob/master/Notebooks/Notebook_5%20-%20Matrix%20Machines.ipynb)        | [HW4](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_4.pdf) Due            |
+|   12 |     11/09 | Inverse matrices and Eigenvalues                                 | OD-Primer2        | [L17](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_17.pdf) [NB6](https://github.com/dblarremore/CSCI2897/blob/master/Notebooks/Notebook_6%20-%20Matrix%20Machines%20II.ipynb)     |             |
 |   12 |     11/11 | Eigenvalues & Eigenvectors                                    | OD-Primer2        | L18         |             |
 |   13 |     11/16 | Multivariable Linear Systems                                  | OD-7    | L19     |             |
 |   13 |     11/18 | Complex Eigenvalues                                           |         | L20     |             |
