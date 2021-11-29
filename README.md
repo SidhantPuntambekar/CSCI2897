@@ -33,9 +33,9 @@ Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for l
 |   11 |     11/02 | Multiple variables, and systems of equations                  |         |         |             |
 |   11 |     11/04 | Vectors, matrices                                             | OD-Primer2        | [L16](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_16.pdf) [NB5](https://github.com/dblarremore/CSCI2897/blob/master/Notebooks/Notebook_5%20-%20Matrix%20Machines.ipynb)        | [HW4](https://github.com/dblarremore/CSCI2897/blob/master/Assignments/homework_4.pdf) Due            |
 |   12 |     11/09 | Inverse matrices and Eigenvalues                                 | OD-Primer2        | [L17](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_17.pdf) [NB6](https://github.com/dblarremore/CSCI2897/blob/master/Notebooks/Notebook_6%20-%20Matrix%20Machines%20II.ipynb)     |             |
-|   12 |     11/11 | Eigenvalues & Eigenvectors                                    | OD-Primer2        | L18         |             |
-|   13 |     11/16 | Multivariable Linear Systems                                  | OD-7    | L19     |             |
-|   13 |     11/18 | Complex Eigenvalues                                           |         | L20     |             |
+|   12 |     11/11 | Eigenvalues & Eigenvectors                                    | OD-Primer2        | [L18](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_18.pdf)         |             |
+|   13 |     11/16 | Multivariable Linear Systems                                  | OD-7    | [L19](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_19.pdf)     |             |
+|   13 |     11/18 | Complex Eigenvalues                                           |         | [L20](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_20.pdf)     |             |
 |   14 |     11/30 | Demography and age-structure transition matrices              |         | L21     |             |
 |   14 |     12/02 | Models w/ 2 ICs: Newton's law, Carbon Dating, Mortgage Pymts  |         | L22     |             |
 |   15 |     12/07 | Least Squares and Linear Algebra                              | Final Outline     | L23         |             |
