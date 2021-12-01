@@ -36,7 +36,7 @@ Office Hours: Monday 9-11 and Wednesday 4-6, BIOT A414 or Zoom (see Canvas for l
 |   12 |     11/11 | Eigenvalues & Eigenvectors                                    | OD-Primer2        | [L18](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_18.pdf)         |             |
 |   13 |     11/16 | Multivariable Linear Systems                                  | OD-7    | [L19](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_19.pdf)     |             |
 |   13 |     11/18 | Complex Eigenvalues                                           |         | [L20](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_20.pdf)     |             |
-|   14 |     11/30 | Demography and age-structure transition matrices              |         | L21     |             |
+|   14 |     11/30 | Demography and age-structure transition matrices              |         | [L21](https://github.com/dblarremore/CSCI2897/blob/master/Notes/lecture_20.pdf)     |             |
 |   14 |     12/02 | Models w/ 2 ICs: Newton's law, Carbon Dating, Mortgage Pymts  |         | L22     |             |
 |   15 |     12/07 | Least Squares and Linear Algebra                              | Final Outline     | L23         |             |
 |   15 |     12/09 | Final Exam Review                                             |         |         |             |
