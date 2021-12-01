@@ -1,0 +1,191 @@
+\documentclass[11pt,onecolumn,superscriptaddress,notitlepage]{article}
+
+\usepackage[total={6.5in,9in}, top=1.0in, includefoot]{geometry}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{graphicx} % Include figure files
+\usepackage{times}
+\usepackage{amsthm}
+\usepackage{hyperref}
+\usepackage[affil-it]{authblk} 
+\hypersetup{bookmarks=true, unicode=false, pdftoolbar=true, pdfmenubar=true, pdffitwindow=false, pdfstartview={FitH}, pdfcreator={Daniel Larremore}, pdfproducer={Daniel Larremore}, pdfkeywords={} {} {}, pdfnewwindow=true, colorlinks=true, linkcolor=red, citecolor=Green, filecolor=magenta, urlcolor=cyan,}
+
+\usepackage{enumitem}
+
+\newcommand{\dx}[0]{\displaystyle\frac{d}{dx}}
+\newcommand{\dy}[0]{\displaystyle\frac{dy}{dt}}
+\newcommand{\so}[1]{\textcolor{red}{#1}}
+\newcommand{\vx}[0]{\mathbf{x}}
+
+\usepackage{parskip}
+
+\date{}
+\begin{document}
+
+%%%%%%%%%% Authors
+\author{CSCI 2897 - Calculating Biological Quantities - Larremore - Fall 2021}
+%%%%%%%%%% Title
+\title{Homework 6}
+%%%%%%%%%% Abstract
+\maketitle
+%%%%%%%%%% Content
+
+    %%%    
+    %%%   
+  %%%%%%%
+   %%%%%
+    %%%
+     %
+{\bf Notes:} Remember to (1) familiarize yourself with the collaboration policies posted on the Syllabus, and (2) turn in your homework to Canvas as a {\bf single PDF}. Hand-writing some or most of your solutions is fine, but be sure to scan and PDF everything into a single document. Unsure how? Ask on Slack! 
+
+\section*{Hamstring curls}
+
+\begin{enumerate}
+\item Write the following equations in the form $\mathbf{A}x=b$. Clearly identify what is $A$, what is $x$, and what is $b$ in your answer.
+\begin{align}
+	n_1 &= 3 - n_2 + 5 n_3 \nonumber \\
+	n_2 &= n_4 - 1000 \nonumber \\
+	n_3 + \pi n_1 &= 0 \nonumber \\
+	n_1+n_2 + n_3 + n_4 &= 37 \nonumber 
+\end{align}
+\end{enumerate}
+
+\section*{Calf raises} 
+
+\begin{enumerate}[resume]
+\item Find the eigenvalues and eigenvectors of the following matrix. Show your steps.
+$\mathbf{M}=
+\begin{pmatrix}
+2 & 2  \\ 
+5 & -1
+\end{pmatrix}$
+\item For the same matrix $\mathbf{M}$ above consider the differential equation,
+$$ \dot{n}(t) = \mathbf{M}n(t)\ .$$
+What is the equilibrium solution to this equation? Justify your answer.
+\item Is the equilibrium you just found stable or unstable? Explain how you know.
+\item What are the eigenvalues of the matrix 
+$\mathbf{Q}=
+\begin{pmatrix}
+2 & 0 & 0 & 0 \\ 
+5 & -1 & 0 & 0 \\
+10 & e^{\pi} & \alpha & 0 \\
+100 & 100 & 100 & 101
+\end{pmatrix}$ ?
+\end{enumerate}
+
+\clearpage
+\section*{Equivalent Statements}
+In class, we learned that the following statements about a matrix $A$ are all equivalent:
+\begin{itemize}
+	\item $A$ is invertible
+	\item $A^{-1}$ exists
+	\item For an arbitrary vector $b$, the equation $Ax=b$ has a unique solution $x$.
+	\item If $Ax=0$ then this means that $x=0$. 
+	\item $\text{Det}(A) \neq 0$. 
+\end{itemize}
+For instance, this means that if a matrix $A$ has determinant 0, then we immediately know that it is not invertible, and we also know that $Ax=0$ does not necessarily imply that $x=0$. We will now add a {\bf sixth} item to that list of equivalent statements.
+\begin{itemize}
+	\item All eigenvalues of $A$ are non-zero.
+\end{itemize}
+In other words, if you tell me that one of $A$'s eigenvalues is $0$, I know immediately that $A$ is not invertible. We also have the {\color{red} negated} versions of the equivalent statements:
+{\color{red}
+\begin{itemize}
+	\item $A$ is not invertible
+	\item $A^{-1}$ does not exist
+	\item For an arbitrary vector $b$, the equation $Ax=b$ does not have unique solution---either no solution or infinite solutions.
+	\item There exists some $x$ vector, $x \neq 0$, such that $Ax=0$.
+	\item $\text{Det}(A) = 0$
+	\item One or more of $A$'s eigenvalues is $0$.
+\end{itemize}
+}
+\vspace{0.2in}	
+\begin{enumerate}[resume]
+	\item Using your own words and math, show how having a zero eigenvalue $\lambda=0$ implies one of the earlier equivalent statements. You may find it useful to start with the definition of an eigenvalue and eigenvector pair: $Ax = \lambda x$. 
+\end{enumerate}
+
+\clearpage
+\section*{Linear and affine models in {\it discrete} time?} 
+In class, we introduced continuous-time linear models 
+$$\dot{\vx} = \mathbf{M}\vx$$
+ and continuous-time affine models 
+$$\dot{\vx} = \mathbf{M}\vx + \mathbf{c}\ ,$$
+ where $\vx$ and $\mathbf{c}$ are vectors and $\mathbf{M}$ is a square matrix. We learned that the unique equilibrium is $\vx=0$ in the first case and $\vx=-\mathbf{M}^{-1} \mathbf{c}$ in the second case, but that these facts were true {\it only} if $\mathbf{M}$ was invertible. 
+ 
+ 
+ However, there are also {\it discrete-time} linear and affine models, which take the form
+ \begin{equation}
+	 \vx(t+1) = \mathbf{M} \vx(t)\ ,
+	 \label{linear}
+ \end{equation}
+and 
+\begin{equation}
+	\vx(t+1) = \mathbf{M} \vx(t) + \mathbf{c}\ .
+	\label{affine}
+\end{equation}
+
+\vspace{0.2in}
+\begin{enumerate}[resume]
+	\item Refresh yourself on how to find an equilibrium in a {\it discrete-time} system. Then, using linear algebra and that definition of equilibrium, what is the equilibrium value of the vector $\mathbf{x}$ in the linear system of Equation~\eqref{linear}?
+	\item In your answer to the previous problem, under what condition {\it on the eigenvalues of $\mathbf{M}$} will the equilibrium of Equation~\eqref{linear} be {\it unique}?
+	\item In the situation where the equilibrium of Equation~\eqref{linear} is, indeed, unique, solve for that equilibrium using linear algebra.
+\end{enumerate}
+
+\vspace{0.2in}
+The next three questions are identical to the previous three, but apply to the affine model in Equation~\eqref{affine} instead. 
+\begin{enumerate}[resume]
+	\item Using linear algebra and that definition of equilibrium, what is the equilibrium value of the vector $\mathbf{x}$ in the linear system of Equation~\eqref{affine}?
+	\item In your answer to the previous problem, under what condition {\it on the eigenvalues of $\mathbf{M}$} will the equilibrium of Equation~\eqref{affine} be {\it unique}?
+	\item In the situation where the equilibrium of Equation~\eqref{affine} is, indeed, unique, solve for that equilibrium using linear algebra.
+\end{enumerate}
+
+
+\clearpage
+\section*{Demographic Modeling}
+
+Consider a model for the age-structure of a population of juveniles $J$, young adults $Y$, and full adults $F$:
+\begin{equation}
+	\begin{pmatrix}
+		J(t+1) \\ Y(t+1) \\ F(t+1)
+	\end{pmatrix}
+	= 
+	\begin{pmatrix}
+		0 & b_Y & b_F \\ 
+		m & s & 0 \\
+		0 & m & s
+	\end{pmatrix}
+	\begin{pmatrix}
+		J(t) \\ Y(t) \\ F(t)
+	\end{pmatrix}
+	\label{demography}
+\end{equation}
+
+\begin{enumerate}[resume]
+	\item Draw a flow diagram for this population model.
+	\item What is the name that researchers give to the matrix in Equation~\eqref{demography}?
+	\item Code up this model so that you can iterate for 50 generations, starting from $J(0)=100$ juveniles and zero young adults or full adults. Assume that both birth rates are $1$ juvenile per adult per time, and that 25\% of juveniles and young adults mature per time step, and 50\% of adults survive per time step.\footnote{Hint: you will need to sort out which parameters in Equation~\eqref{demography} correspond to birth, maturation, and survival.} Make a plot of $50$ generations with Juveniles in black, Young adults in red, and Full adults in orange. Don't forget to label your plot.
+	\item What does your plot tell you about the eigenvalues of the matrix?
+	\item Now increase the birth rate to 1.5 per adult per time, and attach a new plot. What do you observe, and what does this tell you about the eigenvalues of the matrix? 
+	\item Using {\bf np.linalg.eig()}, compute both eigenvalues in question to confirm your previous answers. What are those eigenvalues?
+	\item If these where endangered whales, and you were a conservation ecologist, would it be better to have a stable or unstable equilibrium?
+	\item Finally, explain the difference in how eigenvalues relate to stability for discrete-time {\it vs} continuous-time models. 
+\end{enumerate}
+
+\section*{Extra credit}
+\begin{enumerate}[resume]
+	\item[Extra Credit A] Read about ONE of the following: the {\bf Input-Output matrix} (economics) or {\bf Michaelis-Menten kinetics} (chemistry). How do these relate to what we have studied in class? 
+	\item[Extra Credit B] Read about the life of one of the researchers related to this homework: Sarah P. Otto (modeling), Wassily Leontief (economics), or Maud Menten (chemistry). Find an interesting (to you) biographical detail about them and share it in your homework. Then, share it on Slack! If someone else has posted a fact on Slack, you have to choose a different one!
+\end{enumerate}
+
+     %
+    %%%
+   %%%%%
+  %%%%%%%
+    %%%
+    %%%
+
+\end{document}
