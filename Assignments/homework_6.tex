@@ -168,8 +168,8 @@ Consider a model for the age-structure of a population of juveniles $J$, young a
 	\item Code up this model so that you can iterate for 50 generations, starting from $J(0)=100$ juveniles and zero young adults or full adults. Assume that both birth rates are $1$ juvenile per adult per time, and that 25\% of juveniles and young adults mature per time step, and 50\% of adults survive per time step.\footnote{Hint: you will need to sort out which parameters in Equation~\eqref{demography} correspond to birth, maturation, and survival.} Make a plot of $50$ generations with Juveniles in black, Young adults in red, and Full adults in orange. Don't forget to label your plot.
 	\item What does your plot tell you about the eigenvalues of the matrix?
 	\item Now increase the birth rate to 1.5 per adult per time, and attach a new plot. What do you observe, and what does this tell you about the eigenvalues of the matrix? 
-	\item Using {\bf np.linalg.eig()}, compute both eigenvalues in question to confirm your previous answers. What are those eigenvalues?
-	\item If these where endangered whales, and you were a conservation ecologist, would it be better to have a stable or unstable equilibrium?
+	\item Using {\bf np.linalg.eig()}, compute both ``leading'' eigenvalues in the two previous question to confirm your previous answers. What are those eigenvalues?
+	\item If these were endangered whales, and you were a conservation ecologist, would it be better to have a stable or unstable equilibrium?
 	\item Finally, explain the difference in how eigenvalues relate to stability for discrete-time {\it vs} continuous-time models. 
 \end{enumerate}
 
